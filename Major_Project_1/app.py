@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/19fY5pk2bmLHxmbs6jJNrA-QSF6gJTcdR
 """
 
-!pip install streamlit tensorflow pillow
+
 
 import streamlit as st
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
