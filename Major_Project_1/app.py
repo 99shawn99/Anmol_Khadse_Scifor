@@ -34,6 +34,12 @@ def download_model(url, path):
 if not os.path.isfile(model_path):
     st.write("Downloading model...")
     download_model(model_url, model_path)
+else:
+    st.write("Model already exists.")
+
+
+# Print out the files in the directory for debugging
+st.write("Files in current directory:", os.listdir('.'))
 
 # Initialize model variable
 model = None
