@@ -38,7 +38,7 @@ except Exception as e:
 
 # Function to preprocess the uploaded image
 def preprocess_image(image):
-    img = load_img(image, target_size=(224, 224))  ]
+    img = load_img(image, target_size=(224, 224))  
     img = img_to_array(img)
     img = img / 255.0
     img = np.expand_dims(img, axis=0)
