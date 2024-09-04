@@ -15,7 +15,7 @@ import requests
 import os
 
 # Define the Google Drive file ID and URL
-file_id = '1--FsJDqgwzd3Eng_Ni0ZEtzBmzrWs_PJ'
+file_id = '1FnayOzCAS2O4ZqOiWp2GTLtYQqVzD5rZ'
 model_url = f"https://drive.google.com/uc?id={file_id}"
 model_path = "face_mask_detector_model.keras"
 
