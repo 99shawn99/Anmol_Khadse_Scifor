@@ -17,7 +17,7 @@ import os
 # Define the Google Drive file ID and URL
 file_id = '1FnayOzCAS2O4ZqOiWp2GTLtYQqVzD5rZ'
 model_url = f"https://drive.google.com/uc?id={file_id}"
-model_path = "/content/drive/MyDrive/face_mask_detector_model.keras"
+model_path = "https://drive.google.com/drive/my-drive/face_mask_detector_model.keras"
 
 # Function to download the model
 def download_model(url, path):
